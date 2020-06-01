@@ -1,0 +1,36 @@
+.footer {
+    width:100%;
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0; 
+}
+
+.copyright {
+    position: absolute;
+    text-align: right;
+    left:0;
+    bottom:0;
+    right:0;
+    margin-right: 20px;
+    
+
+}
+
+.contacts {
+    list-style-type: none;
+    justify-content: space-evenly;
+   
+}
+
+#style {
+    width:25%;
+    border: 1px solid lightgrey;
+    padding: 0px 10px;
+    background-color: rgb(187, 58, 22);
+    color: rgb(231, 235, 19);
+    line-height: 30px;
+    margin-top: 10px;
+    text-align: center;
+    
+}
