@@ -1,9 +1,13 @@
+
+
 .footer {
+    height: auto;
     width:100%;
     position:absolute;
     left:0;
     bottom:0;
     right:0; 
+
 }
 
 .copyright {
@@ -13,24 +17,31 @@
     bottom:0;
     right:0;
     margin-right: 20px;
-    
+    margin-bottom: 0 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 
 .contacts {
-    list-style-type: none;
-    justify-content: space-evenly;
-   
+    width: 85%;
+    position: relative;
+    padding: 15px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    align-items: center;
+    
 }
 
-#style {
-    width:25%;
+.contacts li {
+    list-style-type: none;
     border: 1px solid lightgrey;
-    padding: 0px 10px;
     background-color: rgb(187, 58, 22);
     color: rgb(231, 235, 19);
     line-height: 30px;
-    margin-top: 10px;
     text-align: center;
+    margin-top: 5px;
+    min-width: 150px;
+    max-width: 250px;
+    overflow: hidden;
     
 }
