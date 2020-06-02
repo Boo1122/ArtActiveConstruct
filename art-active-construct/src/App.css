@@ -1,13 +1,25 @@
 .position-links {
   width: 100%;
-  justify-content: space-around;
-}
+  justify-content: space-evenly;
+  font-size: 14px;
+
+} 
 
 #border {
-  border: 1px solid lightgrey;
-  padding: 5px 15px;
+  border: 1px solid transparent;
+  padding: 2px 15px;
   text-align: center;
-  background-color: rgb(187, 58, 22);
-  color: rgb(231, 235, 19);
+  background-color: #A52A2A;
+  color: hsla(57, 95%, 48%, 0.945);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  border-radius: 10px;
 
 }
+
+.color {
+  background-color:rgba(9, 8, 20, 0.972);
+  border: 1px solid transparent;
+}
+
+
+
