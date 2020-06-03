@@ -1,0 +1,45 @@
+.main-container {
+   margin-left: 20px;
+   width: 90%;
+}
+
+.article-container {
+   width: 100%;
+}
+
+.chunk-zero {
+   margin-left: 40px;
+}
+
+.chunk-one {
+   margin-left: 90px;
+}
+
+.chunk-two {
+   margin-left: 150px;
+}
+
+.chunk-three {
+   margin-left: 200px;
+   
+}
+
+.chunk-four {
+   margin-left: 250px;
+   
+}
+
+.chunk-five {
+
+   margin-left: 300px;
+}
+
+.chunk-six {
+   margin-left: 350px;
+   
+}
+
+.chunk-seven {
+   margin-left: 400px;
+
+}

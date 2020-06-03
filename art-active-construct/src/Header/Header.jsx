@@ -39,9 +39,9 @@ function isSelected(url, componentName) {
                 />  
 
                 <HeaderButtons
-                    text='Contact' 
-                    selected={isSelected(pathname, 'contact')}
-                    path='contact'
+                    text='Angajari' 
+                    selected={isSelected(pathname, 'Angajari')}
+                    path='employment'
                 />  
     
             </div>

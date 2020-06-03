@@ -6,7 +6,7 @@ import { HomePage } from "./pages/HomePage";
 import { AboutPage } from "./pages/AboutPage";
 import { PortfolioPage } from "./pages/PortfolioPage";
 import { ServicesPage } from "./pages/ServicesPage";
-import { ContactPage } from "./pages/ContactPage";
+import { AngajariPage } from "./pages/AngajariPage";
 import { Footer } from "./Footer/Footer";
 import './Footer/Footer.css'
 
@@ -28,7 +28,7 @@ class App extends Component {
 
              <Route path='/services' exact component={ServicesPage} />
 
-             <Route path='/contact' exact component={ContactPage} /> 
+             <Route path='/employment' exact component={AngajariPage} /> 
           </Switch>
         </Router>
          </div>  
