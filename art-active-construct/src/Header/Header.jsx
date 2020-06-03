@@ -20,15 +20,30 @@ function isSelected(url, componentName) {
                     path='/'
                 />    
 
-
-
                 <HeaderButtons
                     text='Despre noi' 
                     selected={isSelected(pathname, 'about')}
                     path='about'
                 />  
-                
-                
+
+                <HeaderButtons
+                    text='Servicii' 
+                    selected={isSelected(pathname, 'services')}
+                    path='services'
+                />  
+
+                <HeaderButtons
+                    text='Portofoliu' 
+                    selected={isSelected(pathname, 'portfolio')}
+                    path='portfolio'
+                />  
+
+                <HeaderButtons
+                    text='Contact' 
+                    selected={isSelected(pathname, 'contact')}
+                    path='contact'
+                />  
+    
             </div>
         );
     }

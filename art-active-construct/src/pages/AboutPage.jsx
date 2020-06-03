@@ -1,8 +1,39 @@
 import React from 'react'
 
-function AboutPage() {
+export function AboutPage() {
     return (
-        <p>About works</p>       
+        <div>
+
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        <p>aaa</p>       
+        </div>
     )
 }
-export default AboutPage;
+

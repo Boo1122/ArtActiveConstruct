@@ -3,33 +3,39 @@ import Header from '../src/Header/Header';
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { HomePage } from "./pages/HomePage";
-// import { AboutPage } from ".src/pages/AboutPage";
-// import { PortfolioPage } from ".src/pages/PortfolioPage";
-// import { ServicesPage } from ".src/pages/ServicesPage";
-// import { ContactPage } from ".src/pages/ContactPage";
+import { AboutPage } from "./pages/AboutPage";
+import { PortfolioPage } from "./pages/PortfolioPage";
+import { ServicesPage } from "./pages/ServicesPage";
+import { ContactPage } from "./pages/ContactPage";
+import { Footer } from "./Footer/Footer";
+import './Footer/Footer.css'
 
 
 
 class App extends Component {
    render() {
      return (
-       <Router>
-        <div className='app'>
+       <div className='page-container'>
+         <div className='content-wrap'>
+         <Router>
           <Header />
-
            <Switch>
              <Route path='/' exact component={HomePage} />
 
-             {/* <Route path='/about' exact component={AboutPage} />
+             <Route path='/about' exact component={AboutPage} />
 
              <Route path='/portfolio' exact component={PortfolioPage} />
 
              <Route path='/services' exact component={ServicesPage} />
 
-             <Route path='/contact' exact component={ContactPage} /> */}
+             <Route path='/contact' exact component={ContactPage} /> 
           </Switch>
-        </div>
-       </Router>
+        </Router>
+         </div>  
+
+       <Footer />
+      </div>
+        
      )
    }
  }

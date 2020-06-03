@@ -1,8 +1,8 @@
 import React from 'react'
 
-function PortfolioPage() {
+export function PortfolioPage() {
     return (
-            <p>Portfolio works</p>
+            <p></p>
     )
 }
-export default PortfolioPage;
+
