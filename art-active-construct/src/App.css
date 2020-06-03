@@ -1,13 +1,7 @@
-
-#border {
-  border: 1px solid transparent;
-  padding: 2px 15px;
-  text-align: center;
-  background-color: #A52A2A;
-  color: hsla(57, 95%, 48%, 0.945);
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  border-radius: 10px;
-
+body, 
+html {
+ margin:0;
+ width: 100%;
 }
 
 .page-container {
@@ -18,6 +12,7 @@
 }
 .content-wrap {
   flex: 1;
+  
 }
 
 

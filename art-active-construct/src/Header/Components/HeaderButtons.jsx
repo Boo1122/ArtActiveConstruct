@@ -10,10 +10,10 @@ import { Link } from "react-router-dom";
     return (
      
       <Link to={path}>
-        <div className={`header-button${selected ? " selected " : ""}`}
+        <div className={`header-button${selected ? " selected" : ""} space`}
           
-            >
-          <p>{text}</p>
+          >
+              <p>{text}</p>
         </div>
       </Link>
     );
