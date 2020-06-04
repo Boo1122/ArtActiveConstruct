@@ -40,7 +40,7 @@ function isSelected(url, componentName) {
 
                 <HeaderButtons
                     text='Angajari' 
-                    selected={isSelected(pathname, 'Angajari')}
+                    selected={isSelected(pathname, 'employment')}
                     path='employment'
                 />  
     

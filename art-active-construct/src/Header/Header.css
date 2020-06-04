@@ -1,11 +1,15 @@
+
 .header {
-    /* margin: 0; */
+    position: sticky;
+    top:0;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     width: 100%;
-    background-color:rgba(9, 8, 20, 0.972);
+    background-image: url('/header.png');
     height: 50px;
     justify-content:space-around;
+    font-family: 'Courier New';
   
 }
 

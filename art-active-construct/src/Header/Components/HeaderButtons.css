@@ -8,10 +8,13 @@
     height: 30px;
     width: 100px;
     border: 1px solid transparent;
-    background-color: #A52A2A;
     opacity: 1;
     cursor: default;
     overflow: hidden;
+}
+
+.header-button:hover {
+  border-bottom: 2px solid whitesmoke;
 }
 
 .header-button.selected {

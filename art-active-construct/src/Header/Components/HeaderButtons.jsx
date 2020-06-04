@@ -9,8 +9,8 @@ import { Link } from "react-router-dom";
 
     return (
      
-      <Link to={path}>
-        <div className={`header-button${selected ? " selected" : ""} space`}
+      <Link to={path} style={{ textDecoration: 'none' }} >
+        <div className={`header-button${selected ? " selected" : ""} `}
           
           >
               <p>{text}</p>
