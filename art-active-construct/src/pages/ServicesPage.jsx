@@ -1,49 +1,65 @@
 import React from 'react'
+import './ServicesPage.css'
 
 export  function ServicesPage() {
     return (
         <div className='main-container'>
 
-            <section className='section'>
-                <article className='article-container'>
-
-
-              <blockquote className='chunk-two'>
-                       <h2>Constructii</h2>
-                    </blockquote>
+            <section className='section-three'>
                     
-                    <blockquote className='chunk-three'>
-                       <em>Case</em>: construim case la roșu, case la cheie, de vacanță, din lemn, pensiuni și cabane. 
-                    </blockquote>
-                            
-                    <blockquote className='chunk-four'>
-                        <em> Construcții case la roșu </em><strong> include: </strong> fundația, zidăria și structura acoperișului.
+                    <p className='para-one'>
+        <h2 className='construction'>CONSTRUCTII</h2>
+        <br/>
+                       <strong> <em>Case</em> </strong>: construim case la roșu, case la cheie, de vacanță, din lemn, pensiuni și cabane. 
+                    </p>
+
+            </section>
+                <section className='section-four'>
+                    <p className='para-two'>
+                        <em> Construcții case la roșu </em> <strong> include: </strong> fundația, zidăria și structura acoperișului.
                        <strong> Nu include: </strong> finisajele interioare și exterioare și instalațiile aferente. 
 
-                    </blockquote>
+                    </p>
 
-                    <blockquote className='chunk-five'>
+                </section>
+
+                <section className='section-five'>
+                     <p className='para-three'>
                          <em> Construcții case la cheie: </em>cuprinde casa la roșu, partea exterioară a acoperișului, finisajele interioare și exterioare, 
                           pardoseala și instalațiile sanitare, termice și electrice. 
-                    </blockquote>
-                    
-                    <blockquote className='chunk-six'>
-                        
+                    </p>
+                </section>
+                 
+                <section className='section-six'>
+  
                         <h2> Renovări</h2> 
+                        <br/>
 
+                        <p>
                         <em>Renovam case</em>  
-                        <br/>
+                        </p>
+                        
+                        <p>
                         <em>Renovam apartamente</em> 
-                        <br/>
-                        <em>Renovam interioare</em>
-                        <br/>
-                        <em>Renovam exterioare</em>
-                        <hr/>
-                        Avem cel mai bun raport calitate-preț pentru toate tipurile de renovări.
-                    </blockquote>
+                        </p>
 
-                </article>
-            </section>
+                        <p>
+                        <em>Renovam interioare</em>
+                        </p>
+
+                        <p>
+                        <em>Renovam exterioare</em>
+                        </p>
+                        
+                        <br/>
+
+                        <p>
+                        Avem cel mai bun raport calitate-preț pentru toate tipurile de renovări.
+                        </p>
+
+                </section>
+                <section className='section-seven'></section>
+
         </div>
     )
 }

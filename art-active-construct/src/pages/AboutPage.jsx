@@ -3,29 +3,34 @@ import './AboutPage.css'
 
 export function AboutPage() {
     return (
-        <div className='main-container'>
+        <div className='Container'>
 
-            <section>
-                <article className='article-container'>
-                    <blockquote className='chunk-zero'>
+            <section className='section-one'>
+                
+
+                    <p className='paragraph-one'>
                        <strong> Art Active Construct </strong> este o societate care activează în domeniul Construcțiilor civile, industriale și agricole.
-                    </blockquote> 
-            <hr className='line'/>
-                    <blockquote className='chunk-one'>
+                    </p> 
+
+                    <p className='paragraph-two'>
                       Domeniile principale de activitate sunt lucrările de structura și zidărie, 
                       executate cu personal calificat si cu experienta vasta in domeniu.
-                    </blockquote>
+                    </p>
                       
                 
                   
-                    <blockquote className='chunk-seven'>
-
+                    <p className='paragraph-three'>
                         Oferim seriozitate, profesionalism, respectăm termenii contractuali de începere și finalizare a lucrărilor. 
-                        Apelați cu încredere la echipa noastră!
-                    </blockquote>
-                </article>
+                    
+                       <p>
+                        <strong>
+                            Apelați cu încredere la echipa noastră!
+                   
+                        </strong> 
+                        </p>  
+                         </p>
             </section>  
-        
+            <section className='section-two'></section>
         </div>
     )
 }

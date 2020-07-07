@@ -1,15 +1,51 @@
 .main-container {
-    width: 90%;
-    padding-top:150px;
-  
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    font-size: 20px;
+    text-align: center;
+
+
 }
 
-.article-container {
- width: 52%;
- margin: 50px 60px;
- font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.construction {
+    text-align: center;
 }
 
-.section {
-    margin-left: 100px;
+.section-three {
+    margin: 20px;
+    padding: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 1px solid black;
+}
+
+.section-four {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+}
+
+.section-five {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+.section-six {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+
+}
+
+.section-seven {
+    border: 1px solid black;
+    margin-top: 300px;
+    padding: 30px;
+    width: 650px;
+    height: 500px;
+    margin: 20px;
+
 }

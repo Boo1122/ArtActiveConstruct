@@ -1,44 +1,28 @@
-.main-container {
-      width: 90%;
+.Container {
+   width: 100%;
+   display: flex;
+   flex-direction: row-reverse;
 }
 
-.article-container {
-   width: 52%;
-   margin: 50px 60px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.section-one {
+   width: 45%;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   line-height: 3em;
+   font-size: 20px;
+   margin: 50px;
+   padding: 30px;
+   border: 1px solid black;
+
 }
 
-.chunk-zero {
-   }
-
-.chunk-one {
-   }
-
-.chunk-two {
-   
+.section-two {
+   border: 1px solid black;
+   width: 45%;
+   margin: 50px;
 }
 
-.chunk-three {
-   
-   
-}
 
-.chunk-four {
-   
-   
-}
-
-.chunk-five {
-
-   
-}
-
-.chunk-six {
-   
-   
-}
-
-.chunk-seven {
-   
+.paragraph-one {
+   border-bottom: 4px solid #2d545e;
 
 }

@@ -9,7 +9,7 @@ import { ServicesPage } from "./pages/ServicesPage";
 import { AngajariPage } from "./pages/AngajariPage";
 import { Footer } from "./Footer/Footer";
 import './Footer/Footer.css'
-import Carousel from 'react-bootstrap/Carousel';
+
 
 
 
@@ -17,7 +17,7 @@ class App extends Component {
    render() {
      return (
        <div className='page-container'>
-       <Carousel />
+      
          <div className='content-wrap'>
          <Router>
           <Header />

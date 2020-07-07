@@ -1,15 +1,14 @@
-
 .header {
     position: sticky;
-    top:0;
+    top: 0;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
     width: 100%;
-    background-image: url('/header.png');
-    height: 50px;
-    justify-content:space-around;
+    height: 70px;
+    background-color: #2d545e;
+    /* background-image:  url('/header.png'); */
+    justify-content: space-around;
     font-family: 'Courier New';
-  
-}
 
+}

@@ -1,8 +1,9 @@
 .main-footer {
-    color: whitesmoke;
-    background-image: url('/brick.jpg') ;
+    color: #c89666;
+    /* background-image: url('/brick.jpg') ;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: #12343b;
     padding-top: 3em;
     position: relative;
     bottom: 0;
@@ -20,5 +21,5 @@
 }
 
 .line-spacing {
-    letter-spacing:5px;
+    letter-spacing: 5px;
 }
