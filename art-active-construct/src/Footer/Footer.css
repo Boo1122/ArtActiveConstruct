@@ -1,8 +1,5 @@
 .main-footer {
     color: #c89666;
-    /* background-image: url('/brick.jpg') ;
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #12343b;
     padding-top: 3em;
     position: relative;
@@ -12,7 +9,8 @@
 }
 
 .line {
-    background-color: whitesmoke;
+    background-color: #8B4513;
+    height: 2px;
 }
 
 .sub-footer {
@@ -22,4 +20,31 @@
 
 .line-spacing {
     letter-spacing: 5px;
+
+}
+
+.line-one {
+    width: 41%;
+    background-color: #8B4513;
+    margin-left: 0px;
+    height: 2px;
+}
+
+.line-two {
+    width: 81%;
+    background-color: #8B4513;
+    margin-left: 0px;
+    height: 2px;
+}
+
+.line-three {
+    width: 95%;
+    background-color: #8B4513;
+    margin-left: 0px;
+    height: 2px;
+}
+
+.icons-list {
+    display: flex;
+    justify-content: space-around;
 }
